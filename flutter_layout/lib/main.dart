@@ -31,6 +31,8 @@ class ContainerPracice extends StatelessWidget {
 //      constraints:  //设置子控件尺寸约束的条件 比如 宽高
         //设置子控件背后的装饰
         decoration: BoxDecoration(
+            // 渐变
+            gradient: const LinearGradient(colors: [Colors.amber, Colors.cyan]),
             color: Colors.grey,
             border: Border.all(
               width: 20.0,
